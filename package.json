@@ -1,0 +1,11 @@
+{
+  "name": "icp-101-rust-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "bash did.sh && dfx generate",
+    "gen-deploy": "npm run generate && dfx deploy -y"
+  },
+  "dependencies": {}
+}
+
+
